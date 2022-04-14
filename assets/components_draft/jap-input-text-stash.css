@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+label.invalid input:not(:placeholder-shown) ~ .prompt {
+  color: red;
+}
+
+label.invalid input {
+  border-color: red;
+}
+
+label.invalid .material-icons.lead,
+label.invalid .material-icons.trail,
+label.invalid .msg {
+  color: red;
+}
+
+label.valid .material-icons.trail {
+  color: green;
+}
+
+label.valid .material-icons.trail::after {
+  content: "done";
+}
+
+
+
+.material-icons {
+  font-size: calc(1.6 * var(--inputFontSize));
+  width: var(--iconWidth);
+}
+
+.material-icons.lead {
+  color: var(--mediumGray);
+}
+
+input:focus ~ .material-icons.lead {
+  color: var(--themeColor);
+}
+
+.material-icons.trail {
+  text-align: center;
+  color: green;
+  margin-left: calc(-1 * var(--iconWidth));
+  z-index: 2;
+}

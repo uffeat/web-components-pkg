@@ -1,0 +1,43 @@
+/* Icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap'); /* font-family: 'Work Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root {
+  font-size: 6.25%; /* Browser font size = 16px -> 1rem = 1px... But stick with px (browser page-zooming is more prevalent than customizing font size) */
+
+  --themeColor: #1e87f0;  /* Default value. Controlled from code. */
+  --themeColorAccent: #1B79D8;  /* Default value. Controlled from code. */
+
+  --lightGray: gainsboro;
+  --mediumGray: darkGray;
+  --darkGray: dimGray;
+
+  --white: white;
+  --black: black;
+  --green: green;
+  --red: red;
+
+  --boxShadow0: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; /* https://getcssscan.com/css-box-shadow-examples #27 (Material). */
+  --boxShadow1: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;  /* https://getcssscan.com/css-box-shadow-examples #29 (Material). */
+  --boxShadow2: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  /* https://getcssscan.com/css-box-shadow-examples #31 (Material). */
+
+  --fontFamily: 'Work Sans', sans-serif;
+ 
+  --zIndexDrop: 10;
+}
+
+
+:root * {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
